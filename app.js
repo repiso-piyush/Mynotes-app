@@ -1,5 +1,10 @@
-const validator = require("validator");
+const chalk = require("chalk");
+// import chalk from "chalk";
 
-console.log(validator.isEmail("piyush@gmail.com"));
-console.log(validator.isURL("https:\\www.google.com"));
-console.log("above gives false because of the backward slashes");
+console.log(
+  chalk.green("success"),
+  chalk.yellow("warning"),
+  chalk.red("err!!")
+);
+console.log(chalk.bgCyanBright.yellow.bold("Hello world!"));
+console.log(chalk.bold.underline.green("bold green"));

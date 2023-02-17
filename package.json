@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/repiso-piyush/Mynotes-app#readme",
   "dependencies": {
+    "chalk": "^2.4.2",
     "validator": "^13.9.0"
   }
 }
